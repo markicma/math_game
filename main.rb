@@ -5,7 +5,6 @@ require './game.rb'
 
 p1 = MathGame::Player.new("Player 1")
 p2 = MathGame::Player.new("Player 2")
-<<<<<<< HEAD
 turn = MathGame::Turn.new(p1, p2)
 question = MathGame::Question.new(turn)
 game = MathGame::Game.new(question)
