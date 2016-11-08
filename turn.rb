@@ -18,6 +18,5 @@ module MathGame
         @player2
       end
     end
-
   end
 end
