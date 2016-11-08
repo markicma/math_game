@@ -11,7 +11,6 @@ game = MathGame::Game.new(p1, p2)
 
 while p1.lives != 0 and p2.lives != 0 do
   question.ask
-  game.outputScore
   turn.increment
 end
 game.over

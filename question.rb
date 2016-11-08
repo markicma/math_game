@@ -16,11 +16,13 @@ module MathGame
         player = @player2
       end
 
+      puts "----- NEW TURN -----"
       puts "#{player.name}: What does #{num1} plus #{num2} equal?"
 
       if Integer(gets.chomp) != (num1 + num2)
         player.lives -= 1
         puts "#{player.name}: You are wrong, -1 life"
+        puts "P1: #{@player1.lives}/3 vs. P2: #{@player2.lives}/3"
       else
         puts "#{player.name}: That is correct"
       end
