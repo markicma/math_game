@@ -1,4 +1,4 @@
-module MathGame
+class MathGame
   class Game
     def initialize (question)
       @question = question

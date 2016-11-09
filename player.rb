@@ -1,4 +1,4 @@
-module MathGame
+class MathGame
   class Player
     attr_accessor :lives
     attr_reader :name

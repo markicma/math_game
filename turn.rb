@@ -1,4 +1,4 @@
-module MathGame
+class MathGame
   class Turn
     attr_reader :count, :player1, :player2
     def initialize (player1, player2)

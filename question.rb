@@ -1,4 +1,4 @@
-module MathGame
+class MathGame
   class Question
     attr_reader :turn
     def initialize (turn)
